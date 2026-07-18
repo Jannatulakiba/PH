@@ -1,5 +1,5 @@
 let price1 = 100;
-let price2 = 200;
+let price2 = 300;
 
 // if (price1 == price2) {
 //     console.log("valid price");
@@ -128,23 +128,23 @@ let price2 = 200;
 // }
 
 
-let marks = 75;
-let grade;
-if (marks >= 80) {
-    grade = "A+";
-}
-else if (marks >= 70) {
-    grade = "A";
-}
-else if (marks >= 60) {
-    grade = "B";
-}
-else if (marks >= 50) {
-    grade = "C";
-}
-else {
-    grade = "F";
-}
+// let marks = 75;
+// let grade;
+// if (marks >= 80) {
+//     grade = "A+";
+// }
+// else if (marks >= 70) {
+//     grade = "A";
+// }
+// else if (marks >= 60) {
+//     grade = "B";
+// }
+// else if (marks >= 50) {
+//     grade = "C";
+// }
+// else {
+//     grade = "F";
+// }
 
 // console.log("output grade : ", grade);
 
@@ -213,6 +213,6 @@ else {
 
 // console.log("people status : ", validAge)
 
-let age = 2000;
+// let age = 2000;
 
-console.log(age >= 1000 ? "Expensive" : "affotable");
+// console.log(age >= 1000 ? "Expensive" : "affotable");
