@@ -13,17 +13,17 @@ function Hero() {
       {/* Globe backdrop from @app/images */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 -top-20 bottom-0"
+        className="pointer-events-none absolute inset-x-0 top-36 bottom-0 mx-auto max-w-[1040px]"
       >
         <Image
           src={globe}
           alt=""
           fill
-          sizes="100vw"
+          sizes="(max-width: 1040px) 100vw, 1040px"
           loading="eager"
           className="object-cover object-top"
         />
-        <div className="absolute inset-x-0 top-0 h-[35%] bg-gradient-to-b from-surface via-surface/55 to-transparent" />
+        <div className="absolute inset-x-0 top-0 h-[60%] bg-gradient-to-b from-surface via-surface/85 to-transparent" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-[1320px] px-4 pt-16 text-center sm:pt-20 lg:pt-44">
